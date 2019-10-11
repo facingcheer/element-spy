@@ -1,0 +1,32 @@
+{
+  "name": "parcel-build-template",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel -p 8777 example/index.html",
+    "build": "parcel build NODE_ENV=production src/index.js "
+  },
+  "keywords": [],
+  "author": "facingcheer <facingcheer@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-typescript": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "autoprefixer": "^9.6.1",
+    "eslint": "^6.5.1",
+    "eslint-config-alloy": "^3.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "postcss-modules": "^1.4.1",
+    "typescript": "^3.6.3",
+    "typescript-tslint-plugin": "^0.5.4"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "description": ""
+}
