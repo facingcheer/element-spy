@@ -1,5 +1,5 @@
 {
-  "name": "parcel-build-template",
+  "name": "element-spy",
   "version": "1.0.1",
   "main": "./dist/index.js",
   "scripts": {
